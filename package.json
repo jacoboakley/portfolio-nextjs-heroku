@@ -1,0 +1,24 @@
+{
+  "name": "inven-landing",
+  "version": "1.0.0",
+  "description": "Test landing page for Inven",
+  "main": "index.js",
+  "dependencies": {
+    "next": "^2.4.7",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "inven"
+  ],
+  "author": "Jacob Oakley",
+  "license": "ISC"
+}
