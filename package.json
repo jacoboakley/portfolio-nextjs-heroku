@@ -1,7 +1,7 @@
 {
-  "name": "Jacob Oakley Profile",
+  "name": "inven-landing",
   "version": "1.0.0",
-  "description": "Portfolio for Jacob Oakley",
+  "description": "Test landing page for Inven",
   "main": "index.js",
   "dependencies": {
     "next": "^2.4.7",
