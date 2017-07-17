@@ -1,5 +1,4 @@
-import Head from 'next/head'
-import Header from './Header'
+import Navbar from './navbar/Navbar'
 
 const layoutStyle = {
   margin: 0,
@@ -10,7 +9,7 @@ const layoutStyle = {
 
 const Layout = (props) => (
   <div style={layoutStyle}>
-    <Header />
+    <Navbar />
     {props.children}
 
     <style jsx global> 

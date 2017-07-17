@@ -1,9 +1,20 @@
 import Layout from '../components/Layout'
+import LandingPage from '../components/landingPage/LandingPage'
 
 const Index = () => (
-  <Layout>
-    <p>Hello Next.js</p>
-  </Layout>
+  <div>
+    <LandingPage />
+
+    <style jsx global> 
+      {`
+        body {
+          margin: 0;
+          padding: 0;
+        }
+      `}
+    </style>
+
+  </div>
 )
 
 export default Index
