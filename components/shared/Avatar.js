@@ -1,6 +1,6 @@
 const avatarStyle = {
-  height: '10vmin',
-  width: '10vmin',
+  height: '15vmin',
+  width: '15vmin',
 
   margin: '.5em 2em .5em 2em',
 

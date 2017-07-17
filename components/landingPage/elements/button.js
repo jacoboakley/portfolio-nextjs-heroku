@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 const Button = () => (
-  <Link href="/home">
+  <Link href="/about">
     <button>See More
 
     <style jsx>{`

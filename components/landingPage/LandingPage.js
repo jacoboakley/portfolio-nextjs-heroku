@@ -3,7 +3,8 @@ import Button from './elements/button'
 import Links from './elements/links'
 import Title from './elements/title'
 
-const jumbotronStyle = {
+const landingPageStyle = {
+  position: 'absolute',
   margin: '0',
   padding: '0',
 
@@ -15,14 +16,11 @@ const jumbotronStyle = {
   flexDirection: 'column',
   justifyContent: 'center',
 
-  background: 'url("../../static/assets/images/night.png")',
-  backgroundSize: '100% 100%',
-
-  imageRendering: 'pixelated',
+  zIndex: 1,
 }
 
-const Jumbotron = () => (
-  <div style={jumbotronStyle}>
+const LandingPage = () => (
+  <div style={landingPageStyle}>
     <Avatar />
     <Title />
     <Links />
@@ -30,4 +28,4 @@ const Jumbotron = () => (
   </div>
 )
 
-export default Jumbotron
+export default LandingPage

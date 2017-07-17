@@ -1,3 +1,4 @@
+import Jumbotron from '../components/jumbotron/Jumbotron'
 import Navbar from './navbar/Navbar'
 
 const layoutStyle = {
@@ -9,9 +10,10 @@ const layoutStyle = {
 
 const Layout = (props) => (
   <div style={layoutStyle}>
-    <Navbar />
+    <Jumbotron />
     {props.children}
-
+    <Navbar />
+    
     <style jsx global> 
       {`
         body {

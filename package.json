@@ -1,12 +1,13 @@
 {
-  "name": "inven-landing",
+  "name": "Jacob Oakley Profile",
   "version": "1.0.0",
-  "description": "Test landing page for Inven",
+  "description": "Portfolio for Jacob Oakley",
   "main": "index.js",
   "dependencies": {
     "next": "^2.4.7",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "three": "^0.86.0"
   },
   "devDependencies": {},
   "scripts": {

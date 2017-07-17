@@ -1,13 +1,38 @@
 import Link from 'next/link'
 
 const PageRoutes = () => (
-  <div style={{paddingRight: 10}}>
-    <Link href="/">
-      <a>Jumbotron</a>
+  <div>
+    <Link href="/about">
+      <a>About</a>
     </Link>
-    <Link href="/home">
-      <a>Home</a>
+    <Link href="/knowledge">
+      <a>Knowlege</a>
     </Link>
+    <Link href="/skills">
+      <a>Skills</a>
+    </Link>
+
+    <style jsx>
+      {`
+        div {
+          width: 50vw;
+
+          align-items: center;
+          display: flex;
+          justify-content: space-around;
+        }
+
+        a {
+          color: black;
+          text-decoration: none;
+        }
+
+        a:visited {
+          text-decoration: none;
+        }
+      `}
+    </style>
+
   </div>
 )
 
